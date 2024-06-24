@@ -5,8 +5,9 @@ project(LearnCPP CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-find_package(ZLIB)
-find_package(GTest)
+find_package(ZLIB REQUIRED)
+find_package(GTest REQUIRED)
 
+add_subdirectory(GoogleTest)
 add_subdirectory(Leetcode)
 
