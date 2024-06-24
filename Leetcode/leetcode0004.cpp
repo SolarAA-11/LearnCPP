@@ -9,7 +9,7 @@ using namespace std;
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-
+        
     }
 };
 
@@ -162,3 +162,28 @@ TEST(leetcode0004Solution3, crossNumber) {
     vector<int> nums2{2, 7};
     EXPECT_EQ(solution3.findMedianSortedArrays(nums1, nums2), 2.5);
 }
+
+
+class Solution4 {
+public:
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int nums1Size = nums1.size();
+        int nums2Size = nums2.size();
+        int totalSize = nums1Size + nums2Size;
+
+        const int INF = 0x3f3f3f3f;
+
+        nums1.insert(nums1.begin(), -INF);
+        nums1.push_back(INF);
+
+        int i = 1;
+        int j = (totalSize + 1) / 2;
+
+        // nums1[0, i) and nums2[0, j) combine as left part
+        // nums1[i, nums1Size) and nums2[j, nums2Size) combine as right part
+
+        
+
+        return 0.0;        
+    }
+};

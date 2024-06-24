@@ -1,0 +1,2 @@
+
+add_executable(uninitializedVariable uninitializedVariable.cpp)

@@ -9,5 +9,6 @@ find_package(ZLIB REQUIRED)
 find_package(GTest REQUIRED)
 
 add_subdirectory(GoogleTest)
+add_subdirectory(LearnCPPSerials)
 add_subdirectory(Leetcode)
 
