@@ -1,4 +1,5 @@
-
+add_executable(cinBeyonMax cinBeyonMax.cpp)
 add_executable(uninitializedVariable uninitializedVariable.cpp)
 add_executable(keywordException keywordException.cpp)
 add_executable(expressionOnly expressionOnly.cpp)
+add_executable(uselessExpressionStatement uselessExpressionStatement.cpp)
