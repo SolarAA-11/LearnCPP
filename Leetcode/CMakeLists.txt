@@ -9,3 +9,6 @@ target_link_libraries(leetcode0003 gtest::gtest)
 
 add_executable(leetcode0004 leetcode0004.cpp)
 target_link_libraries(leetcode0004 gtest::gtest)
+
+add_executable(leetcode0005 leetcode0005.cpp)
+target_link_libraries(leetcode0005 gtest::gtest)

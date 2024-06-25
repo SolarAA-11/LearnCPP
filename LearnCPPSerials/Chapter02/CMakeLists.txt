@@ -1,0 +1,3 @@
+add_executable(invalidFunctionDefinitionEmbed invalidFunctionDefinitionEmbed.cpp)
+add_executable(valueReturningFunctionUB valueReturningFunctionUB.cpp)
+add_executable(multiDef multiDef.cpp)

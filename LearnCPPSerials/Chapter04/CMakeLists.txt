@@ -1,0 +1,8 @@
+add_executable(fixedSizeInteger fixedSizeInteger.cpp)
+add_executable(outputManipulator outputManipulator.cpp)
+add_executable(presentZeroOne presentZeroOne.cpp)
+add_executable(floatCompare floatCompare.cpp)
+add_executable(infAndNaN infAndNaN.cpp)
+add_executable(printBoolean printBoolean.cpp)
+add_executable(earlyReturn earlyReturn.cpp)
+add_executable(inputChar inputChar.cpp)
