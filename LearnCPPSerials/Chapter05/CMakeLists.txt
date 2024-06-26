@@ -1,0 +1,12 @@
+add_executable(outDecOctHaxNumber outDecOctHaxNumber.cpp)
+add_executable(digitSeparator digitSeparator.cpp)
+add_executable(bitsetShowBinary bitsetShowBinary.cpp)
+add_executable(formatPrintlnShowBinary formatPrintlnShowBinary.cpp)
+add_executable(compileTimeEvaluation compileTimeEvaluation.cpp)
+add_executable(constexprSimple constexprSimple.cpp)
+add_executable(functionParameterAsConst functionParameterAsConst.cpp)
+add_executable(inlineDemo inlineCalculate.cpp inlineMath.cpp inlineDemoMain.cpp)
+add_executable(constexprFunction constexprFunction.cpp)
+add_executable(isConstantEvaluatedDemo isConstantEvaluatedDemo.cpp)
+add_executable(constevalFunction constevalFunction.cpp)
+
