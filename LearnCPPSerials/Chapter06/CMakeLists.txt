@@ -1,0 +1,9 @@
+
+add_executable(divisionOperator divisionOperator.cpp)
+add_executable(divideByZero divideByZero.cpp)
+add_executable(evenlyDivide evenlyDivide.cpp)
+add_executable(moduloSignCondition moduloSignCondition.cpp)
+add_executable(commaOperator commaOperator.cpp)
+add_executable(floatingPointCompare floatingPointCompare.cpp)
+add_executable(logicalShortCircuit logicalShortCircuit.cpp)
+
