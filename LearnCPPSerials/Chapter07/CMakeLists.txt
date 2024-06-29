@@ -25,3 +25,20 @@ add_executable(externalLinkForGlobalVariable
 add_executable(staticDynamicInitGlobalVariable
     staticDynamicInitGlobalVariable.cpp
 )
+
+add_executable(globalVariableAcrossFiles
+    globalVariableAcrossFiles-A.cpp
+    globalVariableAcrossFiles-Main.cpp)
+
+add_executable(constantGlobalVariable
+    constantGlobalVariable-Main.cpp
+)
+
+add_executable(externalLinkageConstantGlobalVariable
+    externalLinkageConstantGlobalVariable-A.cpp
+    externalLinkageConstantGlobalVariable-Main.cpp
+)
+
+add_executable(inlineGlobalConstant
+    inlineGlobalConstant-A.cpp
+    inlineGlobalConstant-Main.cpp)
