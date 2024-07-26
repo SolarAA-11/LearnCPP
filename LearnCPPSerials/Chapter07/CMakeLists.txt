@@ -57,4 +57,7 @@ add_executable(automaticLocalVariable automaticLocalVariable.cpp)
 add_executable(largerSmallerInput largerSmallerInput.cpp)
 add_executable(globalVariable globalVariable.cpp)
 add_executable(globalVariableHiding globalVariableHiding.cpp)
-
+add_executable(
+    inlineConstantGlobalVariable
+    inlineConstantGlobalVariable-Main.cpp
+)
