@@ -61,3 +61,9 @@ add_executable(
     inlineConstantGlobalVariable
     inlineConstantGlobalVariable-Main.cpp
 )
+
+add_executable(
+    inlineNamespace
+    inlineNamespace.cpp
+)
+
