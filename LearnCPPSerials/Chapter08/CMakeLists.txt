@@ -18,3 +18,14 @@ add_executable(
     gotoStatement-Main.cpp
 )
 
+add_executable(
+    exit
+    exit-Main.cpp
+)
+
+add_executable(
+    quick_exit
+    quick_exit-Main.cpp
+)
+
+
