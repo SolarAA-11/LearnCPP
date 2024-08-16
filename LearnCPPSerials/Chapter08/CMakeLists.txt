@@ -28,4 +28,45 @@ add_executable(
     quick_exit-Main.cpp
 )
 
+add_executable(
+    abort
+    abort-Main.cpp
+)
+
+add_executable(
+    PRNGs
+    PRNGs-Main.cpp
+)
+
+add_executable(
+    PRNGs-Seed
+    PRNGs-Seed-Main.cpp
+)
+
+add_executable(
+    mt
+    mt-Main.cpp
+)
+
+add_executable(
+    uniformDistribution
+    uniformDistribution-Main.cpp
+)
+
+add_executable(
+    mtSeed
+    mtSeed-Main.cpp
+)
+
+add_executable(
+    randomDevice
+    randomDevice-Main.cpp
+)
+
+add_executable(
+    seedSequence
+    seedSeq-Main.cpp
+)
+
+
 
