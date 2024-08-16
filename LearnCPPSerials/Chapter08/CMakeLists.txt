@@ -68,5 +68,10 @@ add_executable(
     seedSeq-Main.cpp
 )
 
+add_executable(
+    globalRandomGenerator
+    globalRandomGenerator-Main.cpp
+)
+
 
 
