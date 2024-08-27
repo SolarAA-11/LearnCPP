@@ -18,3 +18,8 @@ add_executable(
     CStyleCast-Main.cpp
 )
 
+add_executable(
+    staticCast
+    staticCast-Main.cpp
+)
+
