@@ -7,9 +7,9 @@ int main() {
     double d{ static_cast<double>(x) / y };
     std::cout << d << std::endl;
 
-    const int x{5};
-    int& ref{ static_cast<int&>(x) };
-    ref = 6;
+    const int z{5};
+    // int& ref{ static_cast<int&>(z) };   // compile error
+    // ref = 6;
 
     return 0;
 }

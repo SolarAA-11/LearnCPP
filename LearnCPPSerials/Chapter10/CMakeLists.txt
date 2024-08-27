@@ -23,3 +23,13 @@ add_executable(
     staticCast-Main.cpp
 )
 
+add_executable(
+    typeAliase
+    typeAliase-Main.cpp
+)
+
+add_executable(
+    typeDeduction
+    typeDeduction-Main.cpp
+)
+
