@@ -33,3 +33,13 @@ add_executable(
     typeDeduction-Main.cpp
 )
 
+add_executable(
+    stringDeduction
+    stringDeduction-Main.cpp
+)
+
+add_executable(
+    forwardFunctionDeduction
+    forwardFunctionDeduction-Main.cpp
+)
+
