@@ -7,4 +7,5 @@ add_subdirectory(Chapter06)
 add_subdirectory(Chapter07)
 add_subdirectory(Chapter08)
 add_subdirectory(Chapter09)
+add_subdirectory(Chapter10)
 
