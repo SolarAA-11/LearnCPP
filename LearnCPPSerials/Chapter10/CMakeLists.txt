@@ -13,3 +13,8 @@ add_executable(
     typeid-Main.cpp
 )
 
+add_executable(
+    CStyleCast
+    CStyleCast-Main.cpp
+)
+
