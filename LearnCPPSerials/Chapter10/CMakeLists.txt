@@ -8,4 +8,8 @@ add_executable(
     implicitConversion-Main.cpp
 )
 
+add_executable(
+    typeid
+    typeid-Main.cpp
+)
 
