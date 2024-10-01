@@ -4,5 +4,8 @@ add_executable(
     trivialConvertion-Main.cpp
 )
 
-
+add_executable(
+    deletedFunction
+    deletedFunction-Main.cpp
+)
 
