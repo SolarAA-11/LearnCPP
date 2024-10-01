@@ -9,3 +9,8 @@ add_executable(
     deletedFunction-Main.cpp
 )
 
+add_executable(
+    functionTemplate
+    functionTemplate-Main.cpp
+)
+
